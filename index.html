@@ -1141,10 +1141,11 @@
 
             .video-outer {
                 position: fixed;
-                bottom: 15%;
-                left: 25%;
+                bottom: 50%;
+                left: 50%;
                 z-index: 99999;
                 display: none;
+                transform: translate(-50%, 50%);
             }
 
             
@@ -1187,8 +1188,9 @@
             }
             @media only screen and (max-width:510px) {
                 .video-outer{
-                    left: 2%;
+                    left: 50%;
                     bottom: 35%;
+                    transform: translate(none);
                 }
 
                 .video-outer iframe {
